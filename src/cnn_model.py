@@ -60,7 +60,7 @@ emotion_model_info = emotion_model.fit_generator(
         validation_steps=7178 // 64)
 
 
-emotion_model.save_weights('models/cnn_fed_model')
+emotion_model.save('models/cnn_fed_model')
 
 '''
 cv2.ocl.setUseOpenCL(False)
